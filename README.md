@@ -8,4 +8,3 @@ It comes pre-configured with:
 - Prettier
 - ESLint
 - Scripts for building, starting, linting, and formatting
-- LangChain latest version
