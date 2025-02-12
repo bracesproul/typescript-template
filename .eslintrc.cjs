@@ -10,14 +10,10 @@ module.exports = {
     project: "./tsconfig.json",
     sourceType: "module",
   },
-  path: {
-    "@/": "src/",
-  },
   plugins: ["import", "@typescript-eslint", "no-instanceof"],
   ignorePatterns: [
     ".eslintrc.cjs",
     "scripts",
-    "src/utils/lodash/*",
     "node_modules",
     "dist",
     "dist-cjs",
