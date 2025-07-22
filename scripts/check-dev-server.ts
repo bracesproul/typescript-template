@@ -2,11 +2,7 @@
 import { spawn } from "child_process";
 import * as path from "path";
 
-const REQUIRED_ENV = {
-  GITHUB_APP_ID: "test",
-  GITHUB_APP_PRIVATE_KEY: "test",
-  GITHUB_WEBHOOK_SECRET: "test",
-};
+const REQUIRED_ENV = {};
 
 /**
  * Checks if the development server starts successfully.
