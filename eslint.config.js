@@ -42,7 +42,7 @@ export default tseslint.config(
         "error",
         { devDependencies: ["**/*.test.ts"] },
       ],
-      "no-console": ["error"],
+      "no-console": ["warn"],
       "no-use-before-define": 0,
       "no-useless-constructor": 0,
       "no-return-await": 0,
